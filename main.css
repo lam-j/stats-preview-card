@@ -91,12 +91,12 @@ img {
     }
     .mobile-image::after {
         background-color: hsl(277, 100%, 31%);
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
         opacity: 60%;
         position: absolute;
         height: 51%;
-        width: 100%;
-        /* top: 0;
-        left: 0; */
+        width: 89%;
         display: block;
         content: "";
     }
